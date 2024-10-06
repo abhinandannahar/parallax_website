@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-image, .second-image,.third-image,.fourth-image{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-image{
+    background-image: url(image2.webp);
+    min-height: 400px;
+} 
+
+.second-image{
+    background-image: url(img2.jpg);
+    min-height: 400px;
+}
+
+.third-image{
+    background-image: url(image3.jpg);
+    min-height: 400px;
+}
+
+.fourth-image{
+    background-image: url(image4.jpg);
+    min-height: 400px;
+}
+
+section{
+    text-align: center;
+    padding: 3rem 5rem;
+
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #0f0f0f; ;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #f4f4f4;
+}
+
+.image{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    position: relative;
+}
+
+.image div{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:  white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.first-image span{
+    color: white ;
+    background-color: black;
+    padding: 20px ;
+}
